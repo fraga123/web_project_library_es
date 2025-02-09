@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pagina de mis libros favoritos SPRINT 02"
+    />
+    <meta name="author" content="Luis David Cantu Bonilla" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Inicio del contenedor de la cabecera -->
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- enlaces de navegacioón. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#staff" class="nav__link"
+                >Los preferidos de nuestro staff</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+      <!-- Inicio del contenido principal-->
+      <main class="content">
+        <section id="staff" class="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <!-- Inicio del contenedor de los libros preferidos-->
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El señor de los Anillos</h3>
+                <p class="card__text">
+                  El Señor de los Anillos es una novela épica escrita por J.R.R.
+                  Tolkien. La historia sigue a Frodo Bolsón, un hobbit que
+                  hereda el Anillo Único, un artefacto poderoso que el señor
+                  oscuro Sauron desea recuperar para consolidar su reinado.
+                  Frodo se une a otros ocho compañeros en una misión para
+                  destruir el Anillo y derrotar a Sauron. La trama está llena de
+                  batallas, magia, canciones, poemas, lenguas ficticias y
+                  referencias simbólicas. Algunos de los mensajes clave de la
+                  novela son la grandeza de lo simple, la importancia de la
+                  amistad y la lealtad, y cómo el poder puede ser corruptor.
+                </p>
+                <p class="card__footer">
+                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
+                  Clifford Stein
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Orgullo y Prejuicio</h3>
+                <p class="card__text">
+                  La historia sigue a Elizabeth Bennet, una joven inteligente y
+                  con carácter, y su relación con el orgulloso y reservado Sr.
+                  Darcy. Elizabeth proviene de una familia con cinco hermanas y
+                  una madre obsesionada con casarlas bien. Cuando el Sr. Darcy
+                  llega al vecindario, Elizabeth lo encuentra arrogante y
+                  desagradable. Sin embargo, a medida que la historia avanza,
+                  ambos personajes se enfrentan a sus propios prejuicios y
+                  malentendidos. A través de una serie de eventos y
+                  revelaciones, Elizabeth y Darcy comienzan a ver más allá de
+                  sus primeras impresiones y se dan cuenta de sus verdaderos
+                  sentimientos. La novela explora temas como el amor, el
+                  matrimonio, la clase social y la importancia de la integridad
+                  personal.
+                </p>
+                <p class="card__footer">
+                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Drácula</h3>
+                <p class="card__text">
+                  La historia sigue a Jonathan Harker, un joven abogado inglés
+                  que viaja a Transilvania para ayudar al conde Drácula con la
+                  compra de una propiedad en Inglaterra. Pronto, Jonathan
+                  descubre que Drácula es un vampiro y está atrapado en su
+                  castillo. Drácula viaja a Inglaterra y comienza a causar
+                  estragos, alimentándose de la sangre de los vivos.
+                </p>
+                <p class="card__footer">Steve McConnell</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Padre Rico, Padre Pobre</h3>
+                <p class="card__text">
+                  El libro narra las lecciones financieras que el autor aprendió
+                  de dos figuras paternas en su vida: su propio padre (el "Padre
+                  Pobre") y el padre de su mejor amigo (el "Padre Rico"). A
+                  través de una serie de anécdotas y enseñanzas, Kiyosaki
+                  destaca la importancia de la educación financiera y cómo las
+                  diferentes mentalidades sobre el dinero pueden influir en el
+                  éxito financiero.
+                </p>
+                <p class="card__footer">Steve McConnell</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
